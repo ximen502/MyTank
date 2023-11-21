@@ -48,7 +48,7 @@ class Tank(input: Input, ground: Ground) : AbstractTank(), MoveListener {
         direction = Shells.DIRECTION_NORTH
         println("tank born position x:$x, y:$y, cx:$cx, cy:$cy, shells x:$shellsX, y:$shellsY")
         this.input = input
-        times = 3
+        times = 2
 //        println(javaClass.toString())
 //        var resource = javaClass.getResource("")
 //        println(resource)

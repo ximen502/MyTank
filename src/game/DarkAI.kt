@@ -9,11 +9,11 @@ class DarkAI {
     fun pushTank(ground: Ground, go: GOObserver) {
 //        println("push")
         if (list.isEmpty()) {
-            var enemyTank = EnemyTank(ground)
-            enemyTank.observer = go
-            // 敌军坦克出现
-            go.born(enemyTank)
-            list.add(enemyTank)
+//            var enemyTank = EnemyTank(ground)
+//            enemyTank.observer = go
+//            // 敌军坦克出现
+//            go.born(enemyTank)
+//            list.add(enemyTank)
         }
     }
 }
